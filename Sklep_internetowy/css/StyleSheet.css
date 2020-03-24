@@ -6,9 +6,9 @@
 
 .box {
     padding: 600px 250px;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-bottom: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 0;
     background: pink;
     
     
@@ -19,6 +19,42 @@
 
  }
 
-h1, ul, footer {
-    margin-left: 800px;
+header, footer {
+    margin-left: 45%;
+    margin-right: 25%;
+}
+
+ul{
+    margin-left:40px;
+}
+
+ul li
+{
+    list-style:none;
+    display: inline-block;
+   line-height:50px;
+}
+
+ul li a {
+        text-decoration: none;
+        font-size: 14px;
+        font-family: Arial;
+        color: black;
+        padding:0 50px;
+        display:block;
+         
+    }
+
+ul li a:hover
+{
+    color:orangered;
+}
+
+nav {
+    width: 50%;
+    height: 40px;
+    background-color: bisque;
+    margin-left:25%;
+    margin-right: 25%;
+
 }
