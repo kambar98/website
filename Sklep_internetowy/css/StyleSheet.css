@@ -24,8 +24,8 @@ header, footer {
     margin-right: 25%;
 }
 
-ul{
-    margin-left:40px;
+ul {
+    margin-left: 40px;
 }
 
 ul li
@@ -45,8 +45,7 @@ ul li a {
          
     }
 
-ul li a:hover
-{
+ul li a:hover{
     color:orangered;
 }
 
@@ -57,4 +56,38 @@ nav {
     margin-left:25%;
     margin-right: 25%;
 
+}
+
+    nav ul li ul li {
+        display: none;
+        position: absolute;
+        margin-left: auto;
+        border-radius: 0px 0px 8px 8px;
+        position: absolute;
+        background-color: white;
+        text-align: center;
+    }
+
+    nav ul li:hover ul li {
+        display: block;
+
+    }
+
+nav ul li a {
+        display: block;
+        font-family: Arial;
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+nav ul li{
+    float:left;
+    list-style:none;
+    position:relative;
+    
+}
+
+
+nav ul li ul li a{
+    padding:0 ;
 }
