@@ -15,10 +15,12 @@
     
 }
 
- header
- {
-
- }
+header {
+    background-image: url(../Images/logo.png);
+    width: 305px;
+    height:100px;
+    background-size:100%;
+}
 
 header, footer {
     margin-left: 45%;
@@ -31,6 +33,7 @@ nav {
 
 ul {
    
+    padding: 0px;
     list-style:none;
     
 }
