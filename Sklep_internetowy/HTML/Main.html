@@ -4,19 +4,42 @@
     <meta charset="utf-8" />
     <title>Elektro</title>
     <link rel="stylesheet" type="text/css" href="../css/StyleSheet.css"/>
+    <script onload="startTime()">
+        function startTime() {
+            var today = new Date();
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+            document.getElementById('clock').innerHTML =
+                h + ":" + m + ":" + s;
+            var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) {
+            if (i < 10) { i = "0" + i };  
+            return i;
+        }
+    </script>
+    
+    
 </head>
 
-<body>
+<body  >
+    <div  id="clock"></div>
 
-    <header>
+    <header >
         <h1>  </h1>
+
     </header>
-    
-    <nav>
+
+
+    <nav >
         <ul>
             <li><a href="Kontakt.html">Kontakt</a></li>
-            <li><a href="Produkty.html">Produkty</a>
-               <ul>
+            <li>
+                <a href="Produkty.html">Produkty</a>
+                <ul>
                     <li><a href="Przekaźniki.html">Przekaźniki</a></li>
                     <li><a href="przewody.html">Przewody</a></li>
                     <li><a href="Rezystory.html">Rezystory</a></li>
