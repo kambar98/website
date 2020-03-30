@@ -13,3 +13,12 @@ function checkTime(i) {
     if (i < 10) { i = "0" + i };
     return i;
 }
+
+function date() {
+    n = new Date();
+    year = n.getFullYear();
+    month = n.getMonth();
+    day = n.getDate();
+    var montharray = new Array("Jan", "Feb", "Mar", "Apr", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec")
+    document.getElementById("date").innerHTML = day + "-" + montharray[month] + "-" + year;
+}

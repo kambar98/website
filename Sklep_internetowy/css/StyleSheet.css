@@ -29,9 +29,13 @@ header {
     justify-content: space-between;
 }
 
-.clock {
-    font-size: 20px;
-    font-weight: bold;
+
+
+header h2 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top:0;
+    float:right;
 }
 
 header h1 {
