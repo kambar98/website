@@ -3,34 +3,16 @@
 <head>
     <meta charset="utf-8" />
     <title>Elektro</title>
-    <link rel="stylesheet" type="text/css" href="../css/StyleSheet.css"/>
-    <script onload="startTime()">
-        function startTime() {
-            var today = new Date();
-            var h = today.getHours();
-            var m = today.getMinutes();
-            var s = today.getSeconds();
-            m = checkTime(m);
-            s = checkTime(s);
-            document.getElementById('clock').innerHTML =
-                h + ":" + m + ":" + s;
-            var t = setTimeout(startTime, 500);
-        }
-        function checkTime(i) {
-            if (i < 10) { i = "0" + i };  
-            return i;
-        }
-    </script>
-    
-    
+    <link rel="stylesheet" type="text/css" href="../css/StyleSheet.css" />
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=_JZIYBpDUTryf4GvjrajIcZyDuoq5a8RLe7JiETg8FwjiK0I7WjbGcl1hE8cIrXmOkaXDsq5wLoUNSb8hdRUHg3029uqwwKgHsg7_0QLsNUnn6uymrC_uZfvup_EhWziOEne1VimOFGsCFoQdrZFGi80Ag64fAsMQ9_mwWHCJQsiIPtYFNVkmsLweUIXyZC4eyLWPMYjAZMknPO_pfZnGund_46QnVwQDU3fV-V996UClwgN-ICjycqmrF2jxfGR113DoeBYQUazSrAeZ6FbT89YF-M5W57WxiILN_eFgot6z7KSyeylU3tHWHYokLJ5mHJ2KRyM5ULSDMjMiaB-p0BN-8kfv7nHc6Ss4NChkXYHEwPI8cFUfHk-I_phC9oQl9kP-bpAbZNxMxXs0zK72ho9foDuVvAGJ_vglwddXgU" charset="UTF-8"></script>
 </head>
 
-<body  >
-    <div  id="clock"></div>
-
-    <header >
+<body>
+    <script type="text/javascript" src="../js/JavaScript.js"></script>
+    <header>
         <h1>  </h1>
-
+        <div class="clock" id="clock"></div>
+        <script>startTime();</script>
     </header>
 
 
