@@ -44,43 +44,45 @@
 
 
     <div class="box">
-        <div class="platnosc">
-            <fieldset>
+        
+            <fieldset class="kontakt">
                 <legend>Dane kontaktowe</legend>
                 <label for="imie">Imię:</label>
                 <input type="text" id="imie" name="imie_uz">
                 <label for="nazwisko">Nazwisko:</label>
                 <input type="text" id="nazwisko" name="nazwisko_uz">
                 <label for="mail">E-mail:</label>
-                <input type="text" id="mail" name="mail_uz">
+                <input type="email" id="mail" name="mail_uz">
                 <label for="nr-kom">Numer telefonu:</label>
-                <input type="text" id="nr-kom" name="nr-kom_uz">
+                <input type="number" id="nr-kom" name="nr-kom_uz">
 
             </fieldset>
 
-            <fieldset>
+            <fieldset class="adres">
                 <legend>Adres</legend>
                 <label for="miasto">Miasto:</label>
                 <input type="text" id="miasto" name="miasto_uz">
                 <label for="ulica">Ulica:</label>
                 <input type="text" id="ulica" name="ulica_uz">
                 <label for="kod-pocz">Kod pocztowy:</label>
-                <input type="text" id="kod-pocz" name="kod-pocz_uz">
+                <input type="number" id="kod-pocz" name="kod-pocz_uz">
 
             </fieldset>
-            <fieldset>
+            <fieldset class="zaplata">
                 <legend>Płatność</legend>
                 <label for="rabat">Kod rabatowy:</label>
                 <input type="text" id="rabat" name="rabat_uz">
                 <label for="zaplata">Metoda płatności:</label>
                 <input type="text" id="miasto" name="miasto_uz">
                 <label for="faktura">Faktura:</label>
-                <input type="checkbox" id="faktura" name="faktura_uz">
+                <input class="faktura_check" type="checkbox" id="faktura" name="faktura_uz">
+
+                
             </fieldset>
 
-                    <button type="submit">Zapłać</button>
+                    <button class="do_zaplaty" type="submit">Zapłać</button>
 
-</div>
+
     </div>
     <footer>
         Kamil Barul, 135939, L-2,kamil.barul@student.put.poznan.pl

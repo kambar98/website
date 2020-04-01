@@ -18,12 +18,93 @@
 
 }
 
-.platnosc {
-    display:inline-block;
-    width:400px;
-    height:1000px;
+.adres {
+    position: relative;
+    bottom: 430px;
+    right: 200px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 650;
+    height: 300px;
+    border: 4px;
+    border-radius: 6px;
+    border: groove;
+    width:250px;
+    height:auto;
+}
+
+.kontakt {
+    position: relative;
+    bottom: 480px;
+    right: 200px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 650;
+    height: 300px;
+    border: 4px;
+    border-radius: 6px;
+    border: groove;
+    width: 250px;
+    height: auto;
+}
+
+    .kontakt legend, .adres legend, .zaplata legend {
+        font-weight: 500;
+        background-color: black;
+        color: white;
+        border-radius: 6px 6px 6px 6px;
+        text-align: center;
+        display:block;
+
+        
+    }
+
+
+
+
+ .kontakt label,.adres label,.zaplata label {
+            float: left;
+            width: 200px;
+        }
+
+.kontakt input,.adres input,.zaplata input {
+        float: left;
+        width: 200px;
+    }
+
+.faktura_check{
+    position:relative;
+    bottom:22px;
+    width:18px;
+    height:18px;
 
     
+}
+
+.do_zaplaty {
+    position: relative;
+    bottom: 250px;
+    left: 175px;
+    width: 150px;
+    height: 75px;
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: 550;
+}
+
+.zaplata {
+    position: relative;
+    bottom: 380px;
+    right: 200px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 650;
+    height: 300px;
+    border: 4px;
+    border-radius: 6px;
+    border: groove;
+    width: 250px;
+    height: auto;
 }
 
 header {
@@ -71,6 +152,7 @@ ul {
 }
 
 ul li {
+        
         float: left;
         width: 235px;
         height: 40px;
