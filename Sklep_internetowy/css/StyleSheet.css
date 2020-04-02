@@ -18,6 +18,8 @@
 
 }
 
+/* Koszyk.html - Początek */
+
 .adres {
     position: relative;
     bottom: 430px;
@@ -29,8 +31,8 @@
     border: 4px;
     border-radius: 6px;
     border: groove;
-    width:250px;
-    height:auto;
+    width: 250px;
+    height: auto;
 }
 
 .kontakt {
@@ -81,15 +83,16 @@
     
 }
 
-.do_zaplaty {
+.box .do_zaplaty {
     position: relative;
-    bottom: 250px;
-    left: 175px;
+    bottom: 925px;
+    left: 125px;
     width: 150px;
-    height: 75px;
+    height: 50px;
     font-family: Arial;
-    font-size: 26px;
-    font-weight: 550;
+    font-size: 25px;
+    font-weight: 575;
+   
 }
 
 .zaplata {
@@ -107,6 +110,24 @@
     height: auto;
 }
 
+.gwarancja ol {
+    position: relative;
+    font-family: Arial;
+    font-size: 12px;
+    background-color: none;
+    color: black;
+    bottom: 1050px;
+    left: 250px;
+    border: 4px;
+    border-radius: 6px;
+    border: groove;
+    height: auto;
+    width: 300px;
+    font-weight: 600;
+    z-index:1;
+}
+
+/* Koszyk.html - Koniec */
 header {
     background-image: url(../Images/logo_back.jpg);
     margin-left: 25%;
@@ -144,14 +165,15 @@ footer {
 
 nav {
     margin-left: 25%;
+    z-index: 3;
 }
 
-ul {
+nav ul {
     padding: 0px;
     list-style: none;
 }
 
-ul li {
+nav ul li {
         
         float: left;
         width: 235px;
@@ -164,26 +186,28 @@ ul li {
         color: white;
         margin-right: 2px;
         border-radius: 3px 3px 3px 3px;
+        
 }
 
-ul li a {
+nav ul li a {
             text-decoration: none;
             color: white;
             display: block;
 }
 
-ul li a:hover {
-                color: green;
+    nav ul li a:hover {
+        color: green;
+        
+    }
 
-}
+    nav ul li ul li {
+        display: none;
+        opacity: .8;
+        z-index: 3;
+    }
 
-ul li ul li {
-            display: none;
-            opacity: .8;
-
-}
-
-ul li:hover ul li {
-            display: block;
-}
+    nav ul li:hover ul li {
+        display: block;
+        z-index: 3;
+    }
 
