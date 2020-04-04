@@ -127,6 +127,36 @@
     z-index:1;
 }
 
+.payButton {
+    box-shadow: inset 0px 0px 22px 0px #3dc21b;
+    background: linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+    background-color: #44c767;
+    border-radius: 12px;
+    border: 2px solid #4d0505;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #2f6627;
+    position: absolute;
+    top:1100px;
+    left:850px;
+}
+
+.payButton:hover {
+        background: linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+        background-color: #5cbf2a;
+    }
+
+.payButton:active {
+        position: absolute;
+        top: 1px;
+    }
+
 /* Koszyk.html - Koniec */
 header {
     background-image: url(../Images/logo_back.jpg);
@@ -164,8 +194,10 @@ footer {
 }
 
 nav {
-    margin-left: 25%;
+    margin-left: 25.2%;
+    position:absolute;
     z-index: 3;
+    top:210px;
 }
 
 nav ul {
@@ -176,7 +208,7 @@ nav ul {
 nav ul li {
         
         float: left;
-        width: 235px;
+        width: 230px;
         height: 40px;
         background-color: black;
         line-height: 40px;
@@ -203,11 +235,11 @@ nav ul li a {
     nav ul li ul li {
         display: none;
         opacity: .8;
-        z-index: 3;
+
     }
 
     nav ul li:hover ul li {
         display: block;
-        z-index: 3;
+
     }
 
