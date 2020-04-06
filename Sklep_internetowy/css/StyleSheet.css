@@ -20,7 +20,7 @@
 
 /* Koszyk.html - Początek */
 
-.adres {
+.adress {
     position: relative;
     bottom: 430px;
     right: 200px;
@@ -35,7 +35,7 @@
     height: auto;
 }
 
-.kontakt {
+.contact {
     position: relative;
     bottom: 480px;
     right: 200px;
@@ -50,7 +50,7 @@
     height: auto;
 }
 
-    .kontakt legend, .adres legend, .zaplata legend {
+    .contact legend, .adress legend, .payment legend {
         font-weight: 500;
         background-color: black;
         color: white;
@@ -64,17 +64,17 @@
 
 
 
- .kontakt label,.adres label,.zaplata label {
+ .contact label,.adress label,.payment label {
             float: left;
             width: 200px;
         }
 
-.kontakt input,.adres input,.zaplata input {
+.contact input,.adress input,.payment input {
         float: left;
         width: 200px;
     }
 
-.faktura_check{
+.facture_check{
     position:relative;
     bottom:22px;
     width:18px;
@@ -95,7 +95,7 @@
    
 }
 
-.zaplata {
+.payment {
     position: relative;
     bottom: 380px;
     right: 200px;
@@ -110,7 +110,7 @@
     height: auto;
 }
 
-.gwarancja ol {
+.guarantee ol {
     position: relative;
     font-family: Arial;
     font-size: 12px;
