@@ -15,15 +15,15 @@
     box-shadow: 2px 0px 29px 2px rgba(0,0,0,0.75);
     margin-bottom: 10px;
     border-radius: 2px;
-    background-color: white;
+    background-image: url(../Images/box.jpg);
+    display:flex;
 }
 
 /* Koszyk.html - Początek */
 
 .adress {
-    position: relative;
-    bottom: 430px;
-    right: 200px;
+
+
     font-family: Arial;
     font-size: 20px;
     font-weight: 650;
@@ -36,9 +36,8 @@
 }
 
 .contact {
-    position: relative;
-    bottom: 480px;
-    right: 200px;
+
+
     font-family: Arial;
     font-size: 20px;
     font-weight: 650;
@@ -75,7 +74,7 @@
     }
 
 .facture_check{
-    position:relative;
+
     bottom:22px;
     width:18px;
     height:18px;
@@ -83,22 +82,11 @@
     
 }
 
-.box .do_zaplaty {
-    position: relative;
-    bottom: 925px;
-    left: 125px;
-    width: 150px;
-    height: 50px;
-    font-family: Arial;
-    font-size: 25px;
-    font-weight: 575;
-   
-}
+
 
 .payment {
-    position: relative;
-    bottom: 380px;
-    right: 200px;
+
+
     font-family: Arial;
     font-size: 20px;
     font-weight: 650;
@@ -111,20 +99,20 @@
 }
 
 .guarantee ol {
-    position: relative;
+
     font-family: Arial;
     font-size: 12px;
     background-color: none;
     color: black;
-    bottom: 1050px;
-    left: 250px;
     border: 4px;
     border-radius: 6px;
     border: groove;
     height: auto;
-    width: 300px;
+    width: 360px;
     font-weight: 600;
     z-index:1;
+    margin-left:340px;
+    margin-top:15px;
 }
 
 .payButton {
@@ -143,7 +131,7 @@
     text-decoration: none;
     text-shadow: 0px 0px 0px #2f6627;
     position: absolute;
-    top:1100px;
+    top:950px;
     left:850px;
 }
 
@@ -156,6 +144,11 @@
         position: absolute;
         top: 1px;
     }
+
+.pay-information{
+    margin-left:50px;
+    margin-top:15px;
+}
 
 /* Koszyk.html - Koniec */
 header {
@@ -223,10 +216,12 @@ nav {
         
 }
 
-    .product-list{
-        display: flex;
-        flex-direction: column;
-    }
+.product-list {
+    display: flex;
+    flex-direction: column;
+    opacity: .8;
+    border-radius:4px;
+}
     .product-list > li {
         width: 100%;
     }
