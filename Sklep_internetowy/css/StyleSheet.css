@@ -1,21 +1,21 @@
 ﻿body {
     background-image: url(../Images/back.jpg);
-    background-size: cover;
+    width: 100%;
+    height: 100%;
     overflow: auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    overflow-x:hidden;
 }
 
 .box {
-    padding: 600px 250px;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 0;
-    background-image: url(../Images/box.jpg);
-    border-width: 10px;
-    border-color: darkgray;
-    border-style: groove;
-
-
-
+    width: 60%;
+    height: 120VH;
+    box-shadow: 2px 0px 29px 2px rgba(0,0,0,0.75);
+    margin-bottom: 10px;
+    border-radius: 2px;
+    background-color: white;
 }
 
 /* Koszyk.html - Początek */
@@ -160,16 +160,15 @@
 /* Koszyk.html - Koniec */
 header {
     background-image: url(../Images/logo_back.jpg);
-    margin-left: 25%;
-    margin-right: 25%;
     margin-top: 4%;
-    border-radius: 6px 6px 6px 6px;
+    border-radius: 2px;
     background-size: 100%;
-    border-width: 10px;
-    border-color: darkgray;
-    border-style: groove;
     display: flex;
     justify-content: space-between;
+    width: 60%;
+    box-shadow: 2px 0px 29px 2px rgba(0,0,0,0.75);
+    margin-bottom: 10px;
+    border-radius: 2px;
 }
 
 
@@ -194,21 +193,23 @@ footer {
 }
 
 nav {
-    margin-left: 25.2%;
-    position:absolute;
     z-index: 3;
-    top:210px;
+    width: 60%;
+    margin-bottom:10px;
+
 }
 
-nav ul {
-    padding: 0px;
-    list-style: none;
-}
+    nav ul {
+        background-color:inherit;
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
 
-nav ul li {
-        
+    nav ul li {
         float: left;
-        width: 230px;
+        width: 25%;
         height: 40px;
         background-color: black;
         line-height: 40px;
@@ -216,10 +217,19 @@ nav ul li {
         font-size: 20px;
         font-family: Arial;
         color: white;
-        margin-right: 2px;
-        border-radius: 3px 3px 3px 3px;
+        border-radius: 4px 4px 4px 4px;
+        margin-right:5px;
+        
         
 }
+
+    .product-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .product-list > li {
+        width: 100%;
+    }
 
 nav ul li a {
             text-decoration: none;

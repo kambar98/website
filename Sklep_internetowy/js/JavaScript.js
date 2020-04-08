@@ -22,3 +22,4 @@ function date() {
     var montharray = new Array("Jan", "Feb", "Mar", "Apr", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec")
     document.getElementById("date").innerHTML = day + "-" + montharray[month] + "-" + year;
 }
+
