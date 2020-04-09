@@ -248,3 +248,42 @@ nav ul li a {
 
     }
 
+/* Kontakt.html - Początek */
+
+.business-card
+{
+    margin-left:50px;
+    width:500px;
+}
+
+.poland-map {
+    display: flex;
+    width: 500px;
+    height: 400px;
+}
+
+.issue-label{
+
+}
+.contact-issue {
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: 650;
+    border-radius: 6px;
+    border: groove;
+    height: auto;
+    width: 373px;
+}
+
+    .contact-issue > input {
+        width: 368px;
+        font-size: 20px;
+        height: 30px;
+    }
+    .contact-issue select {
+        width: 373px;
+        font-size: 20px;
+        height: 30px;
+        margin-bottom: 35px;
+    }
+/* Kontakt.html - Koniec */

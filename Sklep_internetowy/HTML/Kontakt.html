@@ -42,8 +42,39 @@
         </ul>
     </nav>
     <div class="box">
+        <div class="business-card">
 
-    </div>
+            <h1>Siedziba firmy:</h1>
+            <img class="poland-map" src="../Images/polska.jpg"></img>
+            <h2>Napisz do nas</h2>
+            <p> Jeśli masz pytania, pilnie potrzebujesz pomocy napisz wiadomość e-mail wykorzystując formularz:</p>
+            <div class="issue-label">
+                <fieldset class="contact-issue">
+                    <label for="client-nr"></label>
+                    <input type="text" id="client-number" name="client-number" placeholder="Numer klienta">
+
+                    <label for="client-mail"></label>
+                    <input type="text" id="client-email" name="client-email" placeholder="Twoj adres mailowy ">
+
+                    <label for="payment_method"></label>
+                    <select name="payment_method" id="payment_method_uz">
+                        <option value="">--Wybierz temat wiadomości--</option>
+                        <option value="how-buy">Jak kupować</option>
+                        <option value="lost-item">Zgubiona przesyłka</option>
+                        <option value="item-price">Cena towaru</option>
+                        <option value="change-ID">Zmiana danych klienta</option>
+                        <option value="others">Inne</option>
+                    </select>
+
+                    <label for="client-msg"></label>
+                    <textarea id="client-message" name="client-message" placeholder="Twoja wiadomość:" rows="4" cols="50"></textarea>
+
+
+                </fieldset>
+            </div>
+        </div>
+        
+        </div>
     <footer>
         Kamil Barul, 135939, L-2,kamil.barul@student.put.poznan.pl
     </footer>
