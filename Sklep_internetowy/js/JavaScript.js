@@ -23,3 +23,12 @@ function date() {
     document.getElementById("date").innerHTML = day + "-" + montharray[month] + "-" + year;
 }
 
+function calculator() {
+    var Uzas = $("#voltagea1").val();
+    var Udiody 
+
+    alert(Uzas);
+        
+
+    }
+}

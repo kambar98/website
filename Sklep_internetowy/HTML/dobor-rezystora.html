@@ -2,7 +2,7 @@
 <html lang="pl" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Główna</title>
+    <title>Dobór rezystora</title>>
     <link rel="stylesheet" type="text/css" href="../css/StyleSheet.css" />
 </head>
 
@@ -42,8 +42,46 @@
         </ul>
     </nav>
     <div class="box">
-        <img src="../Images/diode-voltage" height="50" width="300">
-
+        <div class="diode-voltage-box">
+            <h4>Diody LED</h4>
+            <p class="diode-voltage-text">
+                Diody znajdują zastosowanie w wielu projektach. Niestety nie wszyscy potrafią dobrać rezystor do LEDa lub całkiem go pomijają. Wtedy dioda może zostać uszkodzona w ułamku sekundy!
+               <br /> W tym artykule przedstawiamy kalkulator doboru wartości rezystancji uwzględniający napięcie zasilania oraz napięcia przewodzenia diody.
+            </p>
+            <h1>Jakie napięcie odkłada się na diodzie?</h1>
+            <p class="diode-voltage-main-text">
+            Producenci określają nominalne napięcie przewodzenia. Wartość ta będzie różna dla każdego rodzaju diody.
+            <br />Jeżeli wyjątkowo nie zostało podane, bądź nie możemy znaleźć takowej informacji wystarczy skorzystać z przykładowej tabeli która zawiera bezpieczne przedziały napięcia:
+            </p>
+            <img class="diode-voltage" src="../Images/diode_voltage.jpg" style="border-radius:4px;">
+            <p class="diode-voltage-note"> <i>Napięcie przewodzenia diod w zależności od kolorów</i> </p>
+            <h2>Zależność z którego wyliczona jest wartość rezystora:</h2>
+            <img class="diode-voltage-depedence" src="../Images/zaleznosc.jpg" style="border-radius:4px;"/>
+            <h3>Kalkulator doboru rezystora: </h3>
+            <table class="calculator-field">
+                <tr>
+                    <td>
+                        <img class="diode-schema" src="../Images/diode_schema.jpg" style="border-radius:4px;" />
+                    </td>
+                    <td style="border:solid 1px; background-color:black;"></td>
+                    <td style="display:flex; flex-direction:column;">
+                        <font color="#ff0000">Napięcie zasilania</font>
+                        <br><input id="voltagea1" cols="10" size="5" onblur="checkNumeric(this,0,250,'','.','');" type="text" style="margin-bottom:2px;"><strong> [V]</strong><br>
+                        <font color="#009900" style="margin-bottom:2px;">Spadek napięcia na diodzie</font>
+                        <br><input id="voltagea2" cols="10" size="5" onblur="checkNumeric(this,0,150,'','.','');" type="text" style="margin-bottom:2px;"><strong> [V]</strong><br>
+                        <font color="#0000ff"style="margin-bottom:2px;">Natężenie prądu</font>
+                        <br><input id="currenta3" cols="10" size="5" onblur="checkNumeric(this,1,500,'','.','');" type="text"style="margin-bottom:2px;"><strong>[mA]</strong><br><br>
+                        <input name="leds" value="1" cols="2" size="2" maxlength="3" type="hidden">
+                        <button onclick="calculator()">Wylicz</button>
+                        <br><br>
+                        <font color="#d2c712"style="margin-bottom:2px;">Wyliczona wartość rezystora</font>
+                        <br><input name="resistor" cols="10" size="6" readonly="true" type="text" style="margin-bottom:2px;"><strong> [Ω]</strong><br>
+                       
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
     </div>
     <footer>
 
