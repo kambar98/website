@@ -66,16 +66,20 @@
                     <td style="border:solid 1px; background-color:black;"></td>
                     <td style="display:flex; flex-direction:column;">
                         <font color="#ff0000">Napięcie zasilania</font>
-                        <br><input id="voltagea1" cols="10" size="5" onblur="checkNumeric(this,0,250,'','.','');" type="text" style="margin-bottom:2px;"><strong> [V]</strong><br>
+                        <br><input id="volt1" cols="10" size="5" type="text" style="margin-bottom:2px;"><strong> [V]</strong><br>
+                        
                         <font color="#009900" style="margin-bottom:2px;">Spadek napięcia na diodzie</font>
-                        <br><input id="voltagea2" cols="10" size="5" onblur="checkNumeric(this,0,150,'','.','');" type="text" style="margin-bottom:2px;"><strong> [V]</strong><br>
+                        <br><input id="volt2" cols="10" size="5" type="text" style="margin-bottom:2px;"><strong> [V]</strong><br>
+                        
                         <font color="#0000ff"style="margin-bottom:2px;">Natężenie prądu</font>
-                        <br><input id="currenta3" cols="10" size="5" onblur="checkNumeric(this,1,500,'','.','');" type="text"style="margin-bottom:2px;"><strong>[mA]</strong><br><br>
+                        <br><input id="cur3" cols="10" size="5"  type="text"style="margin-bottom:2px;"><strong>[mA]</strong><br><br>
+                        
                         <input name="leds" value="1" cols="2" size="2" maxlength="3" type="hidden">
                         <button onclick="calculator()">Wylicz</button>
+                        
                         <br><br>
                         <font color="#d2c712"style="margin-bottom:2px;">Wyliczona wartość rezystora</font>
-                        <br><input name="resistor" cols="10" size="6" readonly="true" type="text" style="margin-bottom:2px;"><strong> [Ω]</strong><br>
+                        <br><input id="resistor" cols="10" size="6" readonly="true" type="text" style="margin-bottom:2px;"><strong> [Ω]</strong><br>
                        
                     </td>
                 </tr>
