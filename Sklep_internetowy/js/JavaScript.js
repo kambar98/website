@@ -27,11 +27,13 @@ function calculator() {
     let Uz = document.getElementById("volt1").value;
     let Ud = document.getElementById("volt2").value;
     let I = document.getElementById("cur3").value;
-    if (Uz < Ud) {
-        window.alert("Niepoprawne wartości zasilania")
+    if (Uz <= Ud) {
+        window.alert("Niepoprawne wartości napięcia")
     }
     else {
         let wynik = (Number(Uz) - Number(Ud)) / (Number(I) * 0.001);
-        document.getElementById("resistor").value = wynik;
+        let zaokraglenie = Math.round(wynik);
+
+        document.getElementById("resistor").value = zaokraglenie;
     }
 }
