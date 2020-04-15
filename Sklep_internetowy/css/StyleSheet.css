@@ -344,9 +344,7 @@ nav ul li a {
 .product-box {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
-    margin-top: 50px;
-    margin-bottom:50px;
+    margin:50px;
 }
 
     .product-box img {
@@ -360,7 +358,6 @@ nav ul li a {
         font-size: 20px;
         font-weight:600;
         font-family: Arial;
-        text-align: center;
         color: black;
     }
 
@@ -368,10 +365,17 @@ nav ul li a {
         display: flex;
         flex-direction: column;
         margin-bottom: 30px;
-        border:dotted;
-       
+        border: dotted;
+        border-radius: 6px;
+        padding: 10px;
+        border-color: black;
     }
     .product-box span:hover {
         color: red;
+    }
+    .text{
+        color:black;
+        font-family:Arial;
+        font-size:16px;
     }
 /* Produkty.html -Koniec*/
