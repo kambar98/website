@@ -363,7 +363,6 @@ nav ul li a {
 
     .product-box a {
         display: flex;
-        flex-direction: column;
         margin-bottom: 30px;
         border: dotted;
         border-radius: 6px;
@@ -373,9 +372,10 @@ nav ul li a {
     .product-box span:hover {
         color: red;
     }
-    .text{
-        color:black;
-        font-family:Arial;
-        font-size:16px;
-    }
+.text {
+    color: black;
+    font-family: Arial;
+    font-size: 16px;
+    margin-left: 30px;
+}
 /* Produkty.html -Koniec*/
