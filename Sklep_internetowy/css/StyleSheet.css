@@ -9,11 +9,12 @@ body {
     flex-direction:column;
     align-items:center;
     overflow-x:hidden;
+    font-family:Verdana;
 }
 
 .box {
     width: 60%;
-    min-height: 115VH;
+    min-height: 125VH;
     height: auto;
     box-shadow: 2px 0px 50px 2px rgba(0,0,0,0.75);
     margin-bottom: 7px;
@@ -41,7 +42,9 @@ header {
     header h2 {
         font-size: 16px;
         line-height: 20px;
-        margin-top: 0;
+        margin-top: 5px;
+        margin-right: 5px;
+        color: #383838;
     }
 
     header h1 {
@@ -59,7 +62,7 @@ footer {
     width: 59%;
     box-shadow: 2px 0px 50px 2px rgba(0,0,0,0.75);
     border-radius: 2px;
-    height: 75px;
+    height: 85px;
     padding: 9.515px;
 }
 
@@ -79,9 +82,9 @@ footer {
     .footer-content p {
         width: 200px;
         font-size: 12px;
-        font-family: arial;
         margin-top: 2px;
         margin-bottom: 2px;
+        color: #383838;
     }
 
 
@@ -109,7 +112,6 @@ nav {
             line-height: 40px;
             text-align: center;
             font-size: 20px;
-            font-family: Arial;
             color: white;
             border-radius: 4px 4px 4px 4px;
             margin-right: 5px;
@@ -145,34 +147,29 @@ nav ul li:hover ul li {
     display: block;
 }
 
+fieldset {
+    border-color: #383838;
+}
 /* Globalne - Koniec */
 
 /* Koszyk.html - Początek */
 
 .adress {
-
-
-    font-family: Arial;
+    color: #383838;
     font-size: 20px;
     font-weight: 650;
-    height: 300px;
-    border: 4px;
     border-radius: 6px;
-    border: groove;
     width: 250px;
     height: auto;
+    margin-top:100px;
+    margin-bottom: 100px;
 }
 
 .contact {
-
-
-    font-family: Arial;
+    color: #383838;
     font-size: 20px;
     font-weight: 650;
-    height: 300px;
-    border: 4px;
     border-radius: 6px;
-    border: groove;
     width: 250px;
     height: auto;
 }
@@ -191,14 +188,16 @@ nav ul li:hover ul li {
 
 
 
- .contact label,.adress label,.payment label {
-            float: left;
-            width: 200px;
-        }
-
-.contact input,.adress input,.payment input {
+    .contact label, .adress label, .payment label {
         float: left;
         width: 200px;
+        color: #383838;
+    }
+
+    .contact input, .adress input, .payment input {
+        float: left;
+        width: 200px;
+        color: #383838;
     }
 
 .facture_check{
@@ -207,6 +206,7 @@ nav ul li:hover ul li {
     width:18px;
     height:18px;
 
+
     
 }
 
@@ -214,32 +214,25 @@ nav ul li:hover ul li {
 
 .payment {
 
-
-    font-family: Arial;
+    color: #383838;
     font-size: 20px;
     font-weight: 650;
-    height: 300px;
-    border: 4px;
     border-radius: 6px;
-    border: groove;
     width: 250px;
     height: auto;
 }
 
 .guarantee ol {
-
-    font-family: Arial;
     font-size: 12px;
-    color: black;
-    border: 4px;
+    color: #383838;
     border-radius: 6px;
-    border: groove;
     height: auto;
     width: 310px;
     font-weight: 600;
-    z-index:1;
-    margin-left:390px;
-    margin-top:15px;
+    z-index: 1;
+    margin-left: 390px;
+    margin-top: 15px;
+    border:2px solid;
 }
 
 .payButton {
@@ -251,14 +244,13 @@ nav ul li:hover ul li {
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
-    font-family: Arial;
     font-size: 19px;
     font-weight: bold;
     padding: 12px 24px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #528ecc;
     position: absolute;
-    top: 950px;
+    top: 1100px;
     left: 850px;
 }
 
@@ -275,6 +267,7 @@ nav ul li:hover ul li {
 .pay-information{
     margin-left:50px;
     margin-top:15px;
+
 }
 
 /* Koszyk.html - Koniec */
@@ -288,6 +281,13 @@ nav ul li:hover ul li {
     width:500px;
 }
 
+    .business-card h1, .business-card h2, .business-card h3 {
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        color: #383838;
+    }
+
 .poland-map {
     display: flex;
     width: 475px;
@@ -299,31 +299,33 @@ nav ul li:hover ul li {
 
 }
 .contact-issue {
-    font-family: Arial;
     font-size: 60px;
     font-weight: 650;
     border-radius: 6px;
-    border: groove;
     height: auto;
     width: 373px;
+    color: #383838;
 }
 
     .contact-issue > input {
         width: 368px;
         font-size: 20px;
         height: 30px;
+        color: #383838;
     }
     .contact-issue select {
         width: 373px;
         font-size: 20px;
         height: 30px;
         margin-bottom: 35px;
+        color: #383838;
     }
 
 .company-contact {
-    margin-left: 230px;
+    margin-left: 170px;
     line-height: 40px;
     font-size: 22px;
+    color: #383838;
 }
 /* Kontakt.html - Koniec */
 
@@ -340,32 +342,35 @@ nav ul li:hover ul li {
     margin-left: 50px;
     margin-right: 50px;
     text-align: center;
-    font-family: Arial;
     font-size: 16px;
+    color: #383838;
 }
 
 .diode-voltage-note {
     text-align: center;
     margin-top: -4px;
     font-size: 12px;
+    color: #383838;
 }
-.diode-voltage-box h1, h2, h3 {
+.diode-voltage-box h1, .diode-voltage-box h2, .diode-voltage-box h3 {
     font-size: 20px;
     margin-top: 40px;
     margin-bottom: 40px;
-   
+    color: #383838;
 }
 
 .diode-voltage-box h4 {
     font-size: 70px;
     text-shadow: 0px 0px 15px #FF0000;
     margin-bottom: 30px;
+    color: #383838;
 }
 
 .calculator-field {
     border: solid 3px;
     margin-left: 150px;
     margin-bottom: 50px;
+    color: #383838;
 }
 
 /* dobor-rezystora.html - Koniec*/
@@ -386,9 +391,8 @@ nav ul li:hover ul li {
 
     .product-box span {
         font-size: 20px;
-        font-weight:600;
-        font-family: Arial;
-        color: black;
+        font-weight: 600;
+        color: #383838;
     }
 
     .product-box a {
@@ -403,8 +407,7 @@ nav ul li:hover ul li {
         color: red;
     }
 .text {
-    color: black;
-    font-family: Arial;
+    color: #383838;
     font-size: 16px;
     margin-left: 30px;
 }
