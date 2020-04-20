@@ -415,4 +415,47 @@ fieldset {
 
 /* index.html - Początek*/
 
+.banner {
+    border-radius:4px;
+   height:150px;
+   width: 96%;
+   margin: 2%;
+   background-image:url(../Images/banner_1.jpg);
+   transition:30s;
+
+   animation-name:animate;
+   animation-direction:alternate-reverse;
+   animation-duration:60s;
+   animation-fill-mode:forwards;
+   animation-play-state:running;
+   animation-iteration-count:infinite;
+   animation-timing-function:ease-in-out;
+}
+
+@keyframes animate {
+    0% {
+        background-image: url(../Images/banner_2.jpg);
+
+    }
+
+    20% {
+        background-image: url(../Images/banner_3.jpg);
+
+    }
+
+    40% {
+        background-image: url(../Images/banner_4.jpg);
+
+    }
+
+    60% {
+        background-image: url(../Images/banner_5.jpg);
+
+    }
+    80% {
+        background-image: url(../Images/banner_6.jpg);
+
+    }
+}
+
 /* index.html - Koniec*/
