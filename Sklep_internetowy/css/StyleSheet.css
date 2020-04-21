@@ -415,21 +415,19 @@ fieldset {
 
 /* index.html - Początek*/
 
-.banner {
-    border-radius:4px;
-   height:150px;
-   width: 96%;
-   margin: 2%;
-   background-image:url(../Images/banner_1.jpg);
-   transition:30s;
+.content {
+    margin: 2%;
+    width: 100%;
+    color: #383838;
+}
 
-   animation-name:animate;
-   animation-direction:alternate-reverse;
-   animation-duration:60s;
-   animation-fill-mode:forwards;
-   animation-play-state:running;
-   animation-iteration-count:infinite;
-   animation-timing-function:ease-in-out;
+.banner {
+    border-radius: 4px;
+    height: 150px;
+    width: 100%;
+    background-image: url(../Images/banner_1.jpg);
+    animation: animate 40s ease-in-out infinite;
+    background-size: cover;
 }
 
 @keyframes animate {
@@ -456,6 +454,31 @@ fieldset {
         background-image: url(../Images/banner_6.jpg);
 
     }
+
+    
 }
 
+.info-box {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(90deg, rgba(48,194,198,1) 11%, rgba(241,241,241,1) 52%, rgba(48,194,198,1) 94%);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    display: flex;
+}
+
+.info {
+    height: 153px;
+    width: 45px;
+    text-align: center;
+    padding-top: 47px;
+    font-size: 70px;
+    font-family: monospace;
+    color: white;
+    margin-left: 30px;
+    background: darkblue;
+    margin-right:30px;
+
+}
 /* index.html - Koniec*/
