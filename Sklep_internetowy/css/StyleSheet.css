@@ -462,8 +462,8 @@ fieldset {
     width: 100%;
     height: 200px;
     background: linear-gradient(90deg, rgba(48,194,198,1) 11%, rgba(241,241,241,1) 52%, rgba(48,194,198,1) 94%);
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-top: 40px;
     border-radius: 4px;
     display: flex;
 }
@@ -477,8 +477,70 @@ fieldset {
     font-family: monospace;
     color: white;
     margin-left: 30px;
-    background: darkblue;
+    background: darkgrey;
     margin-right:30px;
 
 }
-/* index.html - Koniec*/
+
+.recommended-item {
+    display: flex;
+    border-bottom: 3px solid darkcyan;
+}
+
+}
+
+.recommended-2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+}
+.recommended-1 {
+    width: 350px;
+    height: 300px;
+    text-align: center;
+}
+
+.recommended-3 {
+    width: 350px;
+    height: 300px;
+    text-align: center;
+}
+
+
+.rimg-1{
+    background-image:url(../Images/rimg_1_1.jpg);
+    width:100%;
+    height:200px;
+    border-radius:4px;
+    margin-bottom:10px;
+}
+
+    .rimg-1:hover {
+        background-image:url(../Images/rimg_1_2.jpg);
+
+    }
+.rimg-2 {
+    background-image: url(../Images/rimg_2_1.jpg);
+    width: 100%;
+    height: 200px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+    .rimg-2:hover {
+        background-image: url(../Images/rimg_2_2.jpg);
+    }
+.rimg-3 {
+    background-image: url(../Images/rimg_3_1.jpg);
+    width: 100%;
+    height: 200px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+    .rimg-3:hover {
+        background-image: url(../Images/rimg_3_2.jpg);
+    }
+        /* index.html - Koniec*/
