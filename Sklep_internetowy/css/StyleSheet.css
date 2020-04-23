@@ -544,3 +544,29 @@ fieldset {
         background-image: url(../Images/rimg_3_2.jpg);
     }
         /* index.html - Koniec*/
+
+/* Przekaźniki.html - Początek*/
+
+.item-list {
+    margin: 15px;
+    width: 100%;
+}
+
+.item-1 {
+    display: flex;
+    list-style: none;
+    background-color: #D3D3D3;
+    width:100%;
+
+}
+
+.item-2 {
+    display: flex;
+    list-style: none;
+    background-color: #A9A9A9;
+    width: 100%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+/* Przekaźniki.html - Koniec*/
