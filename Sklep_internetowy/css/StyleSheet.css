@@ -556,8 +556,9 @@ fieldset {
     display: flex;
     list-style: none;
     background-color: #D3D3D3;
-    width:100%;
-
+    width: 100%;
+    border-radius: 5px;
+    height: 150px;
 }
 
 .item-2 {
@@ -565,8 +566,35 @@ fieldset {
     list-style: none;
     background-color: #A9A9A9;
     width: 100%;
-    margin-top:20px;
-    margin-bottom:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 150px;
 }
+
+.shopcart-button {
+    background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+    border-radius: 6px;
+    border: 1px solid #057fd0;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 12px;
+    padding: 0px 10px;
+    text-decoration: none;
+    height: 30px;
+    padding-top: 5px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+    .shopcart-button:hover {
+        background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+        background-color: #019ad2;
+    }
+
+    .shopcart-button:active {
+        position: relative;
+        top: 1px;
+    }
 
 /* Przekaźniki.html - Koniec*/
