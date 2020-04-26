@@ -550,6 +550,7 @@ fieldset {
 .item-list {
     margin: 15px;
     width: 100%;
+    color: #383838;
 }
 
 .item-1 {
@@ -567,10 +568,65 @@ fieldset {
     background-color: #A9A9A9;
     width: 100%;
     margin-top: 20px;
-    margin-bottom: 20px;
     height: 150px;
+    border-radius: 5px;
 }
 
+.item-3 {
+    display: flex;
+    list-style: none;
+    background-color: #D3D3D3;
+    width: 100%;
+    margin-top: 20px;
+    height: 150px;
+    border-radius: 5px;
+}
+.item-4 {
+    display: flex;
+    list-style: none;
+    background-color: #A9A9A9;
+    width: 100%;
+    margin-top: 20px;
+    height: 150px;
+    border-radius: 5px;
+}
+.item-5 {
+    display: flex;
+    list-style: none;
+    background-color: #D3D3D3;
+    width: 100%;
+    margin-top: 20px;
+    height: 150px;
+    border-radius: 5px;
+}
+.item-6 {
+    display: flex;
+    list-style: none;
+    background-color: #A9A9A9;
+    width: 100%;
+    margin-top: 20px;
+    height: 150px;
+    border-radius: 5px;
+}
+.item-7 {
+    display: flex;
+    list-style: none;
+    background-color: #D3D3D3;
+    width: 100%;
+    margin-top: 20px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.item-8 {
+    display: flex;
+    list-style: none;
+    background-color: #A9A9A9;
+    width: 100%;
+    margin-top: 20px;
+    height: 150px;
+    border-radius: 5px;
+}
 .shopcart-button {
     background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
     border-radius: 6px;
@@ -596,5 +652,10 @@ fieldset {
         position: relative;
         top: 1px;
     }
-
+.item-description {
+    margin-right: 130px;
+    width: 200px;
+    font-size: 12px;
+    margin-left: 20px;
+}
 /* Przekaźniki.html - Koniec*/
