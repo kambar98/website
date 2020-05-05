@@ -91,3 +91,29 @@ function calculator() {
             num_visits = 0;
         num_visits++;
         SetCookie("num_visits", num_visits, expdate);
+
+function promocja(oldp, nazwa, newp) {
+    this.oldp = oldp;
+    this.nazwa = nazwa;
+    this.newp = newp;
+}
+var Tabela = new Array();
+Tabela[0] = new promocja('<b>Standardowa cena:<b>', '<b>Nazwa:<b>', '<b>Promocyjna cena:<b>');
+Tabela[1] = new promocja('35zł/szt', 'PK-1P-12V', '30zl/szt');
+Tabela[2] = new promocja('68zł/szt', 'BIS-412 230V', '60zł/szt');
+Tabela[3] = new promocja('1,00zł/szt', 'MPSA29 100V/0,8A', '0,90zł/szt');
+Tabela[4] = new promocja('0,50zł/szt', 'LM339-SMD', '0,40zl/szt');
+Tabela[5] = new promocja('2,50zł/szt', 'Zestaw diod LED', '2,00zł/szt');
+function GenerujTabele(Tabela) {
+    var txt = '';
+    for (var x = 0; x < Tabela.length; x++) {
+        txt += '<tr>';
+        txt += '<td>' + Tabela[x].nazwa + '</td>';
+        txt += '<td>' + Tabela[x].oldp + '</td>';
+        txt += '<td>' + Tabela[x].newp + '</td>';
+        txt += '</tr>';
+    }
+    var zawartosctabeli = document.getElementById("Kolejnerekordy");
+    zawartosctabeli.innerHTML = txt;
+}
+
