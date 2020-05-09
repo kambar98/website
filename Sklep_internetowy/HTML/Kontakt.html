@@ -52,16 +52,16 @@
             
             <h2>Napisz do nas</h2>
             <p> Jeśli masz pytania, pilnie potrzebujesz pomocy napisz wiadomość e-mail wykorzystując formularz:</p>
-            <div class="issue-label">
+            <form class="issue-label" method="post" enctype="text/plain" action="mailto:kamil.barul@student.put.poznan.pl">
                 <fieldset class="contact-issue">
                     <label for="client-nr"></label>
-                    <input type="text" id="client-number" name="client-number" placeholder="Numer klienta">
+                    <input type="text" id="client-number" name="client-number" placeholder="Numer klienta" required>
 
                     <label for="client-mail"></label>
-                    <input type="text" id="client-email" name="client-email" placeholder="Twoj adres mailowy ">
+                    <input type="text" id="client-email" name="client-email" placeholder="Twoj adres mailowy " required>
 
                     <label for="payment_method"></label>
-                    <select name="payment_method" id="payment_method_uz">
+                    <select name="payment_method" id="payment_method_uz" required>
                         <option value="">--Wybierz temat wiadomości--</option>
                         <option value="how-buy">Jak kupować</option>
                         <option value="lost-item">Zgubiona przesyłka</option>
@@ -71,11 +71,12 @@
                     </select>
 
                     <label for="client-msg"></label>
-                    <textarea id="client-message" name="client-message" placeholder="Twoja wiadomość:" rows="4" cols="50"></textarea>
+                    <textarea id="client-message" name="client-message" placeholder="Twoja wiadomość:" rows="4" cols="50" required></textarea>
 
-
+                    <input type="submit" value="Wyślij formularz" class="issue-button"/>
                 </fieldset>
-            </div>
+                
+            </form>
         </div>
         <div class="company-contact">
             <h1>Electric</h1>

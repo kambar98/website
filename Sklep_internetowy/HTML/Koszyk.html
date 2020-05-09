@@ -51,50 +51,48 @@
 
 
         
-            <div class="pay-information">
-                <fieldset class="contact">
-                    <legend>Dane kontaktowe</legend>
-                    <label for="imie">Imię:</label>
-                    <input type="text" id="imie" name="imie_uz">
-                    <label for="nazwisko">Nazwisko:</label>
-                    <input type="text" id="nazwisko" name="nazwisko_uz">
-                    <label for="mail">E-mail:</label>
-                    <input type="email" id="mail" name="mail_uz">
-                    <label for="nr-kom">Numer telefonu:</label>
-                    <input type="number" id="nr-kom" name="nr-kom_uz">
+        <form class="pay-information" action="mailto:kamil.barul@student.put.poznan.pl" method="post" enctype="text/plain">
+            <fieldset class="contact">
+                <legend>Dane kontaktowe</legend>
+                <label for="imie">Imię:</label>
+                <input type="text" id="imie" name="imie_uz" required>
+                <label for="nazwisko">Nazwisko:</label>
+                <input type="text" id="nazwisko" name="nazwisko_uz" required>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="mail_uz" required>
+                <label for="nr-kom">Numer telefonu:</label>
+                <input type="number" id="nr-kom" name="nr-kom_uz" required>
 
-                </fieldset>
+            </fieldset>
 
-                <fieldset class="adress">
-                    <legend>Adres</legend>
-                    <label for="city">Miasto:</label>
-                    <input type="text" id="city" name="city_uz">
-                    <label for="street">Ulica:</label>
-                    <input type="text" id="street" name="street_uz">
-                    <label for="zip-code">Kod pocztowy:</label>
-                    <input type="number" id="zip-code" name="zip-code_uz">
+            <fieldset class="adress">
+                <legend>Adres</legend>
+                <label for="city">Miasto:</label>
+                <input type="text" id="city" name="city_uz" required>
+                <label for="street">Ulica:</label>
+                <input type="text" id="street" name="street_uz" required>
+                <label for="zip-code">Kod pocztowy:</label>
+                <input type="number" id="zip-code" name="zip-code_uz" required>
 
-                </fieldset>
-                <fieldset class="payment">
-                    <legend>Płatność</legend>
-                    <label for="discount">Kod rabatowy:</label>
-                    <input type="text" id="discount" name="discount_uz">
-                    <label for="payment_method">Metoda płatności:</label>
-                    <select name="payment_method" id="payment_method_uz">
-                        <option value="">--Wybierz metodę płatności--</option>
-                        <option value="blik">Blik</option>
-                        <option value="skrill">Skrill</option>
-                        <option value="paysafecard">Paysafecard</option>
-                        <option value="card">Karta płatnicza</option>
-                        <option value="transfer">Przelew</option>
-                    </select>
-                    <label for="facture">Faktura:</label>
-                    <input class="facture_check" type="checkbox" id="facture" name="facture_uz">
-
-
-                </fieldset>
-
-            </div>
+            </fieldset>
+            <fieldset class="payment">
+                <legend>Płatność</legend>
+                <label for="discount">Kod rabatowy:</label>
+                <input type="text" id="discount" name="discount_uz">
+                <label for="payment_method">Metoda płatności:</label>
+                <select name="payment_method" id="payment_method_uz" required>
+                    <option value="">--Wybierz metodę płatności--</option>
+                    <option value="blik">Blik</option>
+                    <option value="skrill">Skrill</option>
+                    <option value="paysafecard">Paysafecard</option>
+                    <option value="card">Karta płatnicza</option>
+                    <option value="transfer">Przelew</option>
+                </select>
+                <label for="facture">Faktura:</label>
+                <input class="facture_check" type="checkbox" id="facture" name="facture_uz">
+            </fieldset>
+            <input type="submit" value="Zapłać" class="payButton">  
+        </form>
             <div class="guarantee">
 
                 <ol>
@@ -110,7 +108,7 @@
                     <li>   Zgłoszenie usterki produktu powinno zostać złożone w formie pisemnej, e-mailem bądź faxem (dane kontaktowe w nagłówku warunków gwarancji) oraz powinno zawierać: imię i nazwisko lub nazwę Kupującego, adres, numer telefonu, model, numer seryjny produktu, numer faktury oraz opis usterki w działaniu produktu objętego gwarancją.</li>
                 </ol>
             </div>
-            <button class="payButton" type="submit">Zapłać</button>
+
 
         
 
