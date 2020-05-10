@@ -1,4 +1,6 @@
-﻿function startTime() {
+﻿
+// Licznik czasu, nagłówek - początek
+function startTime() {
     var today = new Date();
     var h = today.getHours();
     var m = today.getMinutes();
@@ -22,7 +24,9 @@ function date() {
     var montharray = new Array("Jan", "Feb", "Mar", "Apr", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec")
     document.getElementById("date").innerHTML = day + "-" + montharray[month] + "-" + year;
 }
+// licznik czasu, nagłowek - koniec
 
+// kalkulator rezystora-początek
 function calculator() {
     let Uz = document.getElementById("volt1").value;
     let Ud = document.getElementById("volt2").value;
@@ -37,7 +41,9 @@ function calculator() {
         document.getElementById("resistor").value = zaokraglenie;
     }
 }
+//kalkulator rezystora-koniec
 
+//licznik odwiedzin-początek
     function getCookieVal(offset) {
             var endstr = document.cookie.indexOf(";", offset);
             if (endstr == -1)
@@ -92,11 +98,16 @@ function calculator() {
         num_visits++;
         SetCookie("num_visits", num_visits, expdate);
 
+//licznik odwiedzin-koniec
+
+//Generowana tabela - początek
 function promocja(oldp, nazwa, newp) {
     this.oldp = oldp;
     this.nazwa = nazwa;
     this.newp = newp;
 }
+
+
 var Tabela = new Array();
 Tabela[0] = new promocja('<b>Standardowa cena:<b>', '<b>Nazwa:<b>', '<b>Promocyjna cena:<b>');
 Tabela[1] = new promocja('35zł/szt', 'PK-1P-12V', '30zl/szt');
@@ -116,4 +127,90 @@ function GenerujTabele(Tabela) {
     var zawartosctabeli = document.getElementById("Kolejnerekordy");
     zawartosctabeli.innerHTML = txt;
 }
+//Generowana tabela - koniec
 
+//Clock-początek
+
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+var radius = canvas.height / 2;
+ctx.translate(radius, radius);
+radius = radius * 0.95
+setInterval(drawClock, 1000);
+
+
+function drawFace(ctx, radius) {
+    var grad;
+
+    ctx.beginPath();
+    ctx.arc(0, 0, radius, 0, 2 * Math.PI);
+    ctx.fillStyle = 'white';
+    ctx.fill();
+
+    grad = ctx.createRadialGradient(0, 0, radius * 0.90, 0, 0, radius * 1.0);
+    grad.addColorStop(0, '#383838');
+    grad.addColorStop(0.5, '#708090');
+    grad.addColorStop(1, '#383838');
+    ctx.strokeStyle = grad;
+    ctx.lineWidth = radius * 0.1;
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.arc(0, 0, radius * 0.05, 0, 2 * Math.PI);
+    ctx.fillStyle = 'black';
+    ctx.fill();
+}
+
+
+function drawNumbers(ctx, radius) {
+    var ang;
+    var num;
+    ctx.font = radius * 0.2 + "px arial";
+    ctx.textBaseline = "middle";
+    ctx.textAlign = "center";
+    for (num = 1; num < 13; num++) {
+        ang = num * Math.PI / 6;
+        ctx.rotate(ang);
+        ctx.translate(0, -radius * 0.8);
+        ctx.rotate(-ang);
+        ctx.fillText(num.toString(), 0, 0);
+        ctx.rotate(ang);
+        ctx.translate(0, radius * 0.8);
+        ctx.rotate(-ang);
+    }
+
+}
+function drawClock() {
+    drawFace(ctx, radius);
+    drawNumbers(ctx, radius);
+    drawTime(ctx, radius);
+}
+
+function drawTime(ctx, radius) {
+    var now = new Date();
+    var hour = now.getHours();
+    var minute = now.getMinutes();
+    var second = now.getSeconds();
+
+    hour = hour % 12;
+    hour = (hour * Math.PI / 6) + (minute * Math.PI / (6 * 60)) + (second * Math.PI / (360 * 60));
+    drawHand(ctx, hour, radius * 0.7, radius * 0.05);
+
+    minute = (minute * Math.PI / 30) + (second * Math.PI / (30 * 60));
+    drawHand(ctx, minute, radius * 0.8, radius * 0.03);
+
+    second = (second * Math.PI / 30);
+    drawHand(ctx, second, radius * 0.9, radius * 0.015);
+}
+
+function drawHand(ctx, pos, length, width) {
+    ctx.beginPath();
+    ctx.lineWidth = width;
+    ctx.lineCap = "round";
+    ctx.moveTo(0, 0);
+    ctx.rotate(pos);
+    ctx.lineTo(0, -length);
+    ctx.stroke();
+    ctx.rotate(-pos);
+}
+//clock - koniec
