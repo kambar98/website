@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<!-- Nazwa pliku: dostepnosc.xml -->
+
+<SPIS>
+  <ELEMENT>
+    <PRODUKT>Rezystor</PRODUKT>    
+    <NAZWA> SMD 1.5Ohm</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>12300</LICZBA>
+  </ELEMENT>
+  <ELEMENT>
+    <PRODUKT>Rezystor</PRODUKT>    
+    <NAZWA> SMD 1Ohm</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>10000</LICZBA>
+  </ELEMENT>
+  <ELEMENT>
+    <PRODUKT>Rezystor</PRODUKT>    
+    <NAZWA> SMD 1.5kOhm</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>9000</LICZBA>
+  </ELEMENT>
+  <ELEMENT>
+    <PRODUKT>Rezystor</PRODUKT>    
+    <NAZWA> SMD 3.9kOhm</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>8700</LICZBA>
+  </ELEMENT>
+  <ELEMENT>
+    <PRODUKT>Rezystor</PRODUKT>    
+    <NAZWA> THT 330kOhm</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>25000</LICZBA>
+  </ELEMENT>
+
+  <ELEMENT>
+    <PRODUKT>Rezystor</PRODUKT>    
+    <NAZWA> THT 1Ohm</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>1000</LICZBA>
+  </ELEMENT>
+
+  <ELEMENT>
+    <PRODUKT>Rezystor</PRODUKT>    
+    <NAZWA> THT 330Ohm</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>12000</LICZBA>
+  </ELEMENT>
+
+  <ELEMENT>
+    <PRODUKT>Rezystor</PRODUKT>    
+    <NAZWA> THT 100Ohm</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>100000</LICZBA>
+  </ELEMENT>
+
+  <ELEMENT>
+    <PRODUKT>Przekaznik</PRODUKT>    
+    <NAZWA> PK-1P-12V </NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>0</LICZBA>
+  </ELEMENT>
+  <ELEMENT>
+    <PRODUKT>Przekaznik</PRODUKT>    
+    <NAZWA> PK-3P-230V</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>100</LICZBA>
+  </ELEMENT>
+  <ELEMENT>
+    <PRODUKT>Przekaznik</PRODUKT>    
+    <NAZWA> Przekaznik bistabilny 1z 230V EPN510</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>200</LICZBA>
+  </ELEMENT>
+  <ELEMENT>
+    <PRODUKT>Przekaznik</PRODUKT>    
+    <NAZWA> Przekaznik bistabilny 4Z 230V EPN540</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>80</LICZBA>
+  </ELEMENT>
+  <ELEMENT>
+    <PRODUKT>Przekaznik</PRODUKT>    
+    <NAZWA> BIS-412 230V Przekaznik bistabilny</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>2500</LICZBA>
+  </ELEMENT>
+  <ELEMENT>
+    <PRODUKT>Przekaznik</PRODUKT>    
+    <NAZWA> PCU-510 DUO 230V/24V </NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>80</LICZBA>
+  </ELEMENT>
+  <ELEMENT>
+    <PRODUKT>Przekaünik</PRODUKT>    
+    <NAZWA> PCU-518 DUO 230V/24V </NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>700</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Przekaünik</PRODUKT>    
+    <NAZWA> PCS-519 12V</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>650</LICZBA>
+  </ELEMENT>
+
+<ELEMENT>
+    <PRODUKT>Uklad scalony</PRODUKT>    
+    <NAZWA> Analogowy multiplekser CD4051</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>700</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Uklad scalony</PRODUKT>    
+    <NAZWA> Analogowy multiplekser/demultiplekser MC4051BG - SMD</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>500</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Uklad scalony</PRODUKT>    
+    <NAZWA> Multiplekser 2-kanalowy PCA9540BDP I2C</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>200</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Uklad scalony</PRODUKT>    
+    <NAZWA> Tranzystor bipolarny NPN Darlington MPSA29 100V/0,8A</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>900</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Uklad scalony</PRODUKT>    
+    <NAZWA> P-MOSFET IRLML6401TRPBF - SMD</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>200</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Uklad scalony</PRODUKT>    
+    <NAZWA> Komparator analogowy LM339 - SMD</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>10000</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Uklad scalony</PRODUKT>    
+    <NAZWA> Komparator analogowy LM339 - THT</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>680</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Uklad scalony</PRODUKT>    
+    <NAZWA> Triak BTA06-600C 600V/6A - THT</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>700</LICZBA>
+  </ELEMENT>
+
+<ELEMENT>
+    <PRODUKT>Dioda</PRODUKT>    
+    <NAZWA> Zestaw diod LED 5mm - 16szt.</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>50</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Dioda</PRODUKT>    
+    <NAZWA> Dioda Schottky SK23 SM</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>5000</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Dioda</PRODUKT>    
+    <NAZWA> Nadajnik IR TSUS4300 3mm 950nm</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>3000</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Dioda</PRODUKT>    
+    <NAZWA> Zestaw diod prostowniczych Velleman K/DIODE1 - 120szt.</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>50</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Dioda</PRODUKT>    
+    <NAZWA> Dioda prostownicza BY399 3A / 800V - 10szt.</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>500</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Dioda</PRODUKT>    
+    <NAZWA> Dioda prostownicza 1N5908 1,5kW 6V 200A - 10szt.</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>350</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Dioda</PRODUKT>    
+    <NAZWA> Dioda Zenera 0,5W 3,3V - 10szt.</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>500</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Dioda</PRODUKT>    
+    <NAZWA> Dioda Zenera 0,5W 4,7V - 10szt.</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>700</LICZBA>
+  </ELEMENT>
+
+<ELEMENT>
+    <PRODUKT>Przewod</PRODUKT>    
+    <NAZWA> Przewod CCS YTDY 2 zylowy 0,5 mm - 100m</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>100</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Przewod</PRODUKT>    
+    <NAZWA> Przewod CCS YTDY 4 zylowy 0,5 mm - 100m</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>175</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Przewod</PRODUKT>    
+    <NAZWA> Przewod YDTY 6 zylowy 0,5mm - 100m</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>125</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Przewod</PRODUKT>    
+    <NAZWA> Przewod YTDY 8 zylowy 0,5 mm - 100m</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>75</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Przewod</PRODUKT>    
+    <NAZWA> Przewod druciany PCV 0,25mm - brπzowy - rolka 250m</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>1000</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Przewod</PRODUKT>    
+    <NAZWA> Przewod instalacyjny LgY 1x1,5 H07V-K - czarny - rolka 100m</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>710</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Przewod</PRODUKT>    
+    <NAZWA> Przewod instalacyjny LgY 1x0,5 H05V-K - czerwony - rolka 100m</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>800</LICZBA>
+  </ELEMENT>
+<ELEMENT>
+    <PRODUKT>Przewod</PRODUKT>    
+    <NAZWA> Przewod druciany PCV 0,25mm - 8 kolorow - rolka 250m</NAZWA>
+    <DOSTEPNOSC>Dostepny na magazynie</DOSTEPNOSC>
+    <LICZBA>10</LICZBA>
+  </ELEMENT>
+
+</SPIS>

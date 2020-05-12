@@ -1,4 +1,4 @@
-﻿
+﻿var element;
 // Licznik czasu, nagłówek - początek
 function startTime() {
     var today = new Date();
@@ -214,3 +214,50 @@ function drawHand(ctx, pos, length, width) {
     ctx.rotate(-pos);
 }
 //clock - koniec
+
+//Sprawdzenie dostępności - początek
+function zaladujPlik() {
+    xmlhttp = new XMLHttpRequest();
+    xmlhttp.open("GET", "../XML/dostepnosc.xml");
+    xmlhttp.send();
+    xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+            var xmlDoc = xmlhttp.responseXML;
+            element = xmlDoc.getElementsByTagName("ELEMENT");
+        }
+    }
+}
+
+
+function SzukajElementu() {
+    LancuchSzukany = TekstWyszukiwany.value.toUpperCase();
+    if (LancuchSzukany == "") {
+        DIVWynikowy.innerHTML = "Należy wprowadzić dane do wyszukania ";
+        return;
+    }
+
+    WynikHTML = "";
+    for (var i = 0; i < element.length; i++) {
+        LancuchTytulu = element[i].getElementsByTagName("PRODUKT")[0].childNodes[0].nodeValue;
+
+        if (LancuchTytulu.toUpperCase().indexOf(LancuchSzukany) >= 0)
+            WynikHTML += "<I>"
+                + element[i].getElementsByTagName("PRODUKT")[0].childNodes[0].nodeValue
+                + "</I>, "
+                + "<B>"
+                + element[i].getElementsByTagName("NAZWA")[0].textContent
+                + "</B>, "
+                + element[i].getElementsByTagName("DOSTEPNOSC")[0].textContent
+                + ": "
+                + element[i].getElementsByTagName("LICZBA")[0].childNodes[0].nodeValue
+                + " sztuk <P> "
+
+    }
+
+    if (WynikHTML == "")
+        DIVWynikowy.innerHTML = "Nie znaleziono komponentu";
+    else
+        DIVWynikowy.innerHTML = WynikHTML;
+}
+
+//Sprawdzenienie dostepności - koniec
