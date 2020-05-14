@@ -31,7 +31,7 @@ function calculator() {
     let Uz = document.getElementById("volt1").value;
     let Ud = document.getElementById("volt2").value;
     let I = document.getElementById("cur3").value;
-    if (Uz <= Ud) {
+    if (Number(Uz) <= Number(Ud)) {
         window.alert("Niepoprawne wartości napięcia")
     }
     else {
